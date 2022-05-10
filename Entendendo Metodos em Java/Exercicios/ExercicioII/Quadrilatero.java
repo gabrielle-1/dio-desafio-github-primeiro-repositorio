@@ -5,7 +5,7 @@ public class Quadrilatero{
     }
 
     public static void calculateArea(double lado1, double lado2){
-        System.out.println("A área do triângulo é:" + lado * lado);
+        System.out.println("A área do retângulo é:" + lado * lado);
     }
 
     public static void calculateArea(double largerBase, double smallBase, double height){
