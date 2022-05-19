@@ -61,7 +61,7 @@ F V V
 F F F
 
 
-#### Negação
+#### Negação ou Inversão
 
 Operação que inverte o valor lógico de um operando ou expressão
 
@@ -96,5 +96,19 @@ Exemplos de expressões:
 
 #### Boas práticas
 
-Crie variáveis auxiliares para guardar resultados intermediários
+Crie variáveis auxiliares para guardar resultados intermediários.
+
+Exemplos:
+
+((salarioMensal < mediaSalariol) && (quantidadeDependentes >= mediaDependentes))
+
+Poderia ser:
+
+boolean recebeAuxilio = (salarioBaixo) && (muitosDependentes)
+
+Objetivo: Facilitar a legibilidade e o entendimento do código, por consequência, facilita a manutenção do código.
+
+
+
+
 
